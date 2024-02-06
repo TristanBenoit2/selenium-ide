@@ -1,0 +1,190 @@
+{
+  "id": "6fa6e22d-5cc4-4dac-93c1-8865697692c6",
+  "version": "3.0",
+  "name": "New Project",
+  "url": "http://www.google.com",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "69642818-ff63-4864-935e-1d445d13d2e1",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [
+        "7db6c95e-8f51-4916-8632-394e16e55654"
+      ],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "7db6c95e-8f51-4916-8632-394e16e55654",
+      "name": "New Test",
+      "commands": [
+        {
+          "id": "3bd50c0d-6c4b-4e31-97ad-596866933fe3",
+          "command": "open",
+          "target": "/",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "id=APjFqb",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e29b0c33-93ec-4b58-a20f-c3e4d7ae0256",
+          "targets": [
+            [
+              "id=APjFqb",
+              "id"
+            ],
+            [
+              "name=q",
+              "name"
+            ],
+            [
+              "css=[data-ved=\"0ahUKEwjW_4LQipSEAxUNfKQEHQFIDCYQ39UDCAQ\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#APjFqb",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='APjFqb'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=APjFqb",
+          "value": "https://petstore.octoperf.com/",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6b375ca2-1bc2-4319-ac27-b2228a78af1b",
+          "targets": [
+            [
+              "id=APjFqb",
+              "id"
+            ],
+            [
+              "name=q",
+              "name"
+            ],
+            [
+              "css=[data-ved=\"0ahUKEwjW_4LQipSEAxUNfKQEHQFIDCYQ39UDCAQ\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=#APjFqb",
+              "css:finder"
+            ],
+            [
+              "xpath=(//textarea[@id='APjFqb'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=btnK",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "19f2f14d-3844-4658-bf3f-ab3030108ee0",
+          "targets": [
+            [
+              "name=btnK",
+              "name"
+            ],
+            [
+              "css=[data-ved=\"0ahUKEwjW_4LQipSEAxUNfKQEHQFIDCYQ4dUDCA0\"]",
+              "css:data-attr"
+            ],
+            [
+              "css=center:nth-child(2) > .gNO89b",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='btnK'])[1]",
+              "xpath:attributes"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "css=#rso > .MjjYud:nth-child(1) .LC20lb",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7cfe40c2-3995-42ec-bc38-7a19d7fdb7f5",
+          "targets": [
+            [
+              "css=#rso > .MjjYud:nth-child(1) .LC20lb",
+              "css:finder"
+            ],
+            [
+              "xpath=(//div[@id='rso']/div/div/div/div/div/div/span/a/h3)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//h3[contains(.,'Petstore Demo - OctoPerf')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "linkText=Enter the Store",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "a0dba4d8-6485-4ada-b1f0-ad46683bb800",
+          "targets": [
+            [
+              "linkText=Enter the Store",
+              "linkText"
+            ],
+            [
+              "css=a",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Enter the Store')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='Content']/p/a)[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, 'actions/Catalog.action')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Enter the Store')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
