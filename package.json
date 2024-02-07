@@ -1,6 +1,6 @@
 {
   "name": "selenium-ide-monorepo",
-  "repository": "git@github.com:SeleniumHQ/selenium-ide.git",
+  "repository": "git@github.com:TristanBenoit2/selenium-ide.git",
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
@@ -29,7 +29,7 @@
     "watch:ts": "tsc --build --verbose --watch"
   },
   "engines": {
-    "node": ">=16"
+    "node": "^20"
   },
   "workspaces": [
     "packages/*"
