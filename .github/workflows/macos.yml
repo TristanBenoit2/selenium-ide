@@ -2,6 +2,11 @@ name: 'Test Selenium IDE'
 
 on:
   workflow_dispatch:
+    inputs:
+      trigger:
+        description: 'Trigger the workflow'
+        required: true
+        default: 'manual'
 jobs:
   test:
     permissions:
@@ -32,5 +37,5 @@ jobs:
         run: pnpm -r i
       - name: Build side-runner and selenium-ide
         run: npm run build
-      - name: Run all tests
-        run: npm run test
+      - name: Run selenium tests
+        run: npm run test-selenium

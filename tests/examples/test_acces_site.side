@@ -1,5 +1,5 @@
 {
-  "id": "6fa6e22d-5cc4-4dac-93c1-8865697692c6",
+  "id": "2b42d3c2-0454-41de-b509-a7834cab1037",
   "version": "3.0",
   "name": "New Project",
   "url": "http://www.google.com",
@@ -9,23 +9,23 @@
   "plugins": [],
   "suites": [
     {
-      "id": "69642818-ff63-4864-935e-1d445d13d2e1",
+      "id": "060a2144-b421-44fe-ab27-d28664f9f75b",
       "name": "New Suite",
       "parallel": false,
       "persistSession": false,
       "tests": [
-        "7db6c95e-8f51-4916-8632-394e16e55654"
+        "104d3afd-ac56-4f89-a568-115942b13134"
       ],
       "timeout": 30000
     }
   ],
   "tests": [
     {
-      "id": "7db6c95e-8f51-4916-8632-394e16e55654",
+      "id": "104d3afd-ac56-4f89-a568-115942b13134",
       "name": "New Test",
       "commands": [
         {
-          "id": "3bd50c0d-6c4b-4e31-97ad-596866933fe3",
+          "id": "c7680f39-4a39-48d1-a52a-894718e059a5",
           "command": "open",
           "target": "/",
           "value": ""
@@ -37,7 +37,7 @@
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
           "winHandleId": "root",
-          "id": "e29b0c33-93ec-4b58-a20f-c3e4d7ae0256",
+          "id": "912d942a-d4e4-4580-84e6-7ff251293930",
           "targets": [
             [
               "id=APjFqb",
@@ -48,7 +48,7 @@
               "name"
             ],
             [
-              "css=[data-ved=\"0ahUKEwjW_4LQipSEAxUNfKQEHQFIDCYQ39UDCAQ\"]",
+              "css=[data-ved=\"0ahUKEwjCz46JipSEAxWYU6QEHQogBlkQ39UDCAQ\"]",
               "css:data-attr"
             ],
             [
@@ -62,117 +62,36 @@
           ]
         },
         {
-          "command": "type",
+          "command": "sendKeys",
           "target": "id=APjFqb",
-          "value": "https://petstore.octoperf.com/",
-          "insertBeforeLastCommand": false,
-          "frameLocation": "root",
-          "winHandleId": "root",
-          "id": "6b375ca2-1bc2-4319-ac27-b2228a78af1b",
-          "targets": [
-            [
-              "id=APjFqb",
-              "id"
-            ],
-            [
-              "name=q",
-              "name"
-            ],
-            [
-              "css=[data-ved=\"0ahUKEwjW_4LQipSEAxUNfKQEHQFIDCYQ39UDCAQ\"]",
-              "css:data-attr"
-            ],
-            [
-              "css=#APjFqb",
-              "css:finder"
-            ],
-            [
-              "xpath=(//textarea[@id='APjFqb'])[1]",
-              "xpath:attributes"
-            ]
-          ]
+          "value": "jpetstore",
+          "id": "afd7cf29-4d0b-4016-9309-0d77a5d58b81"
+        },
+        {
+          "command": "sendKeys",
+          "target": "id=APjFqb",
+          "value": "${KEY_ENTER}",
+          "id": "e1600a39-2408-474f-9242-2063c0450fd6"
         },
         {
           "command": "click",
-          "target": "name=btnK",
+          "target": "css=.hlcw0c:nth-child(1) .LC20lb:nth-child(2)",
           "value": "",
           "insertBeforeLastCommand": false,
           "frameLocation": "root",
           "winHandleId": "root",
-          "id": "19f2f14d-3844-4658-bf3f-ab3030108ee0",
+          "id": "5e4cb405-4e9c-4369-9454-9cf6986b8704",
           "targets": [
             [
-              "name=btnK",
-              "name"
-            ],
-            [
-              "css=[data-ved=\"0ahUKEwjW_4LQipSEAxUNfKQEHQFIDCYQ4dUDCA0\"]",
-              "css:data-attr"
-            ],
-            [
-              "css=center:nth-child(2) > .gNO89b",
+              "css=.hlcw0c:nth-child(1) .LC20lb:nth-child(2)",
               "css:finder"
             ],
             [
-              "xpath=(//input[@name='btnK'])[1]",
-              "xpath:attributes"
-            ]
-          ]
-        },
-        {
-          "command": "click",
-          "target": "css=#rso > .MjjYud:nth-child(1) .LC20lb",
-          "value": "",
-          "insertBeforeLastCommand": false,
-          "frameLocation": "root",
-          "winHandleId": "root",
-          "id": "7cfe40c2-3995-42ec-bc38-7a19d7fdb7f5",
-          "targets": [
-            [
-              "css=#rso > .MjjYud:nth-child(1) .LC20lb",
-              "css:finder"
-            ],
-            [
-              "xpath=(//div[@id='rso']/div/div/div/div/div/div/span/a/h3)[1]",
+              "xpath=(//div[@id='rso']/div/div/div/div/div/div/div/span/a/h3)[1]",
               "xpath:idRelative"
             ],
             [
-              "xpath=//h3[contains(.,'Petstore Demo - OctoPerf')]",
-              "xpath:innerText"
-            ]
-          ]
-        },
-        {
-          "command": "click",
-          "target": "linkText=Enter the Store",
-          "value": "",
-          "insertBeforeLastCommand": false,
-          "frameLocation": "root",
-          "winHandleId": "root",
-          "id": "a0dba4d8-6485-4ada-b1f0-ad46683bb800",
-          "targets": [
-            [
-              "linkText=Enter the Store",
-              "linkText"
-            ],
-            [
-              "css=a",
-              "css:finder"
-            ],
-            [
-              "xpath=(//a[contains(text(),'Enter the Store')])[1]",
-              "xpath:link"
-            ],
-            [
-              "xpath=(//div[@id='Content']/p/a)[1]",
-              "xpath:idRelative"
-            ],
-            [
-              "xpath=(//a[contains(@href, 'actions/Catalog.action')])[1]",
-              "xpath:href"
-            ],
-            [
-              "xpath=//a[contains(.,'Enter the Store')]",
+              "xpath=//h3[contains(.,'JPetStore - Petstore Demo - OctoPerf')]",
               "xpath:innerText"
             ]
           ]
